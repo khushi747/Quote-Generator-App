@@ -1,0 +1,62 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#6528f7 5%, #d7bbf5);
+}
+
+.card {
+  padding-left: 13px;
+  padding-right: 10px;
+  width: 450px;
+  height: 200px;
+  background-color: #ede4ff;
+  border-radius: 20px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-sentence {
+  padding-top: 10px;
+  padding-left: 18px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  margin-top: -70px;
+  font-family: monospace;
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+  margin-right: px;
+}
+
+.quote-author {
+  margin-top: -20px;
+}
+
+.btn {
+  background-color: #d7bbf5;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  border: 2px solid black;
+  /* margin-bottom: -30px;
+  padding-bottom: -30px; */
+  position: absolute;
+  left: 540px;
+  bottom: 215px;
+}
